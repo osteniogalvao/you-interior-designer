@@ -37,6 +37,8 @@ Peça ao agente algo como:
 
 > Quero projetar uma estante e uma escrivaninha em MDF para o meu quarto de 3,00 × 3,20. Seguem as fotos e as medidas.
 
+Para começar mais rápido, copie o [prompt modelo](PROMPT_MODELO.md) e preencha os dados do seu cômodo.
+
 A skill conduz o fluxo nesta ordem:
 
 1. levantamento das medidas;
