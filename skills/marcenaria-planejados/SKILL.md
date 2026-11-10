@@ -9,6 +9,8 @@ Fluxo completo para projetar móveis sob medida em MDF, painel por painel:
 
 **levantamento → modelo paramétrico → 3D + vistas 2D → ciclo de ajustes → plano de corte**
 
+Para as regras técnicas (folgas, fórmulas de portas e gavetas, furação, ferragens, plano de corte e porta mimetizada), use junto a skill `marcenaria-tecnica`.
+
 Tudo roda em Python local. Os scripts estão em `scripts/`, na mesma pasta deste SKILL.md. Copie-os para a pasta do projeto do usuário em vez de editar os originais. Responda no idioma do usuário. Medidas internas sempre em **milímetros**; para o usuário, use metros com vírgula (0,70) se ele escreve assim.
 
 ## 0. Preparar o ambiente
@@ -89,7 +91,7 @@ Normalmente o usuário manda prints do 3D apontando o que mudar. A cada pedido:
 
 **Sinalize problemas de projeto, mas respeite quando o usuário mantiver a decisão:**
 - **Ergonomia:** tampo de 0,73 a 0,75. Abaixo de bandejas e gavetas, sobre menos de 0,60 livre para as pernas.
-- **Vãos:** prateleira de MDF 18 acima de cerca de 0,90 a 1,00 m enverga. Use reforço, travessa ou divisória.
+- **Vãos:** prateleira de MDF 18 com livros enverga acima de ~0,55–0,65 m apoiada só nas pontas (~0,90 m se parafusada no fundo). Use reforço, testeira, 25 mm ou divisória; calcule com `marcenaria-tecnica`.
 - **Circulação:** confira o giro da porta e a folga até o móvel.
 - **Conflitos:** tomadas, interruptores, sanca ou cortineiro e o peitoril da janela.
 - **Equipamentos:** confira se cabem com folga, como violão em pé ou um piano com a profundidade da bandeja.

@@ -12,6 +12,13 @@ Skill para agentes de IA (Claude Code, Claude.ai e outros compatíveis com Agent
 |---|---|---|
 | ![3D](docs/exemplo_3d.png) | ![Vistas](docs/exemplo_vistas.png) | ![Chapa](docs/exemplo_chapa.png) |
 
+## Skills
+
+| Skill | Para quê |
+|---|---|
+| `marcenaria-planejados` | Fluxo do projeto: levantamento, modelo 3D paramétrico, vistas 2D, ajustes e plano de corte com CSV para o Cortecloud. |
+| `marcenaria-tecnica` | Regras técnicas: folgas e fórmulas de portas e gavetas, furação (sistema 32, minifix, cavilha, dobradiça de caneco, corrediças), plano de corte (veio, refilo, kerf, fita) e painel ripado ou liso com porta mimetizada. Inclui calculadoras em Python puro. |
+
 ## Instalação
 
 **Com o CLI `skills`** (Claude Code, Cursor, Codex e outros agentes):
@@ -27,9 +34,9 @@ npx skills add steniodsb/you-interior-designer
 /plugin install you-interior-designer@you-interior-designer
 ```
 
-**Manual, no Claude Code:** copie `skills/marcenaria-planejados/` para `~/.claude/skills/` (todos os projetos) ou para `.claude/skills/` (um projeto só).
+**Manual, no Claude Code:** copie `skills/marcenaria-planejados/` e `skills/marcenaria-tecnica/` para `~/.claude/skills/` (todos os projetos) ou para `.claude/skills/` (um projeto só).
 
-**No Claude.ai:** compacte a pasta `skills/marcenaria-planejados` num `.zip` e envie em *Settings → Capabilities → Skills*.
+**No Claude.ai:** compacte cada pasta de `skills/` num `.zip` e envie em *Settings → Capabilities → Skills*.
 
 ## Como usar
 
