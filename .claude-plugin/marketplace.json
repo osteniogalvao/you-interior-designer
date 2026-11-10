@@ -1,0 +1,11 @@
+{
+  "name": "you-interior-designer",
+  "owner": { "name": "steniodsb", "url": "https://github.com/steniodsb" },
+  "plugins": [
+    {
+      "name": "you-interior-designer",
+      "source": "./",
+      "description": "Móveis planejados em MDF: modelo 3D paramétrico, vistas 2D e plano de corte com CSV para Cortecloud."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "you-interior-designer",
+  "version": "1.0.0",
+  "description": "Móveis planejados em MDF: modelo 3D paramétrico, vistas 2D e plano de corte de chapas com fita de borda e CSV para Cortecloud.",
+  "author": { "name": "steniodsb", "url": "https://github.com/steniodsb" },
+  "homepage": "https://github.com/steniodsb/you-interior-designer",
+  "repository": "https://github.com/steniodsb/you-interior-designer",
+  "license": "MIT",
+  "keywords": ["marcenaria", "woodworking", "mdf", "cut-list", "plano-de-corte", "3d", "interior-design"]
+}
